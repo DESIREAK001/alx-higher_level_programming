@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print("abcdefghijklmnopqrstuvwxyz")
+for alphabet in range(ord('a'), ord('z')):
+    print("{}".format(chr(alphabet)), end="")
