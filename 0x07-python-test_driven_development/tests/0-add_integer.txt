@@ -1,0 +1,20 @@
+def add_integer(a, b=98):
+    '''
+    this function adds two intgers
+    Args:
+    a (int, float) the first integer or float
+    b (int, float) the second integer or float
+    b defaults at 98
+    returns:
+    the sum of a and b
+    raises:
+    typeError:if a or b are not integers or floats
+    '''
+	
+	if not (isinstance(a, (int, float))):
+        	raise TypeError("a must be integers")
+	if not (isinstance (b, (int, float))):
+        	raise TypeError("b must be integers")
+    	a = int(a)
+    	b = int(b)
+    	return a+b
