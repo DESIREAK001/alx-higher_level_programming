@@ -1,4 +1,3 @@
-5-to_integer.js
 #!/usr/bin/node
 if (isNaN(process.argv[2]) || process.argv[2] === undefined) {
   console.log('Not a number');

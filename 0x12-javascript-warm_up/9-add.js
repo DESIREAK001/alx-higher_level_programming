@@ -1,4 +1,3 @@
-9-add.js
 #!/usr/bin/node
 function add (a, b) {
   const c = a + b;
